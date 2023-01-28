@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #142433;
+}
+h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.form{
+    background-color: #295264;
+    width: 40%;
+    height: 300px;
+    border: 1px solid #2d6073;
+    border-radius: 3px;
+    box-shadow:inset 0 0 10px #000;
+    margin: 100px auto;
+    margin-top: 60px;
+}
+
+.form h2{
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+    margin-top: 30px;
+    font-size: 200%;
+}
+
+input{
+    width: 40%;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+.adivinar{
+    width: 30%;
+    margin-left: 35%;
+    font-size: 20px;
+}

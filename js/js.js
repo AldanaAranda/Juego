@@ -2,7 +2,8 @@ var y = Math.floor(Math.random() * 10 + 1);
 var intentos = 1;
 
 document.addEventListener("keypress", function (e) {
-    var x = document.getElementById("Adivinar").onclick = function () {
+    document.getElementById("Adivinar").onclick = function(){
+    var x = document.getElementById("Adivinanza").value = function () {
         if (e.key === "Enter" && x === y) {
             alertalert("FELICIDADES, lo adivinaste en " + intentos + " intentos")
         }
@@ -15,6 +16,7 @@ document.addEventListener("keypress", function (e) {
             alert("Intenta un número más grande")
         }
     }
+}
 
 })
 

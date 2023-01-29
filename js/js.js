@@ -1,6 +1,5 @@
 var y = Math.floor(Math.random() * 10 + 1);
 var intentos = 1;
-console.log(y)
 
 document.addEventListener("keypress", function(e) {
     if (e.key === "Enter") {

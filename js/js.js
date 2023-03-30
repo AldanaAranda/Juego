@@ -2,7 +2,7 @@ var y = Math.floor(Math.random() * 10 + 1);
 var intentos = 1;
 
 document.addEventListener("keypress", function(e) {
-    if (e.key == "Enter") {
+    if (e.key === "Enter" || e.onClick) {
         const o = document.querySelector("#enviar");
         o.click(document.getElementById("enviar").onclick = function () {
             var x = document.getElementById("respuesta").value;

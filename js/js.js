@@ -17,10 +17,9 @@ document.addEventListener("keypress", function(e) {
                 intentos++;
                 alert("Intenta con un número más grande");
             }
-        }
-
-                }
-                }
+        })
+    }
+})
 
 
 
